@@ -5,6 +5,10 @@
         background: linear-gradient(225deg, var(--cor01), var(--cor02));
     }
 
+    section#login{
+        height: 354.6px;
+    }
+
     div#imagem{
         float: left;
         width: 33%;
@@ -24,6 +28,7 @@
 
     section#login{
         width: 900px;
+        height: 388.2px;
     }
 
     div#imagem{
