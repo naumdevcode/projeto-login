@@ -1,4 +1,4 @@
-@charset "UTF-8";   
+@charset "UTF-8";
 
 :root{
     --cor01: #8C6FB1;
@@ -48,30 +48,29 @@ div#imagem{
     height: 200px;
 }
 
-/*---------------------------------------------------------------------------*/
-
 div#formulario{
     display: block;
-    text-align: center;
     padding: 10px;
 }
 
-#formulario h1, p{
+div#formulario h1{
+    text-align: center;
+}
+
+div#formulario{
+    h1, p, input{
     margin-bottom: 10px;
+    }
 }
 
-form p{
-    text-align: left;
-}
-
-form input{
+/* div#formulario input{
     width: 100%;
     background-color: var(--cor04);
     padding: 5px;
     border: 1px solid var(--cor01);
 }
 
-form  p.botao input{
+div#formulario  p.botao input{
     padding: 10px;
     background-color: var(--cor03);
-}
+} */
