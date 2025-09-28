@@ -4,6 +4,7 @@
     --cor01: #8C6FB1;
     --cor02: #32A3CF;
     --cor03: #607ED4;
+    --cor04: #a2b0d5;
 }
 
 *{
@@ -16,8 +17,47 @@ html, body{
     width: 100vw;
     height: 100vh;
     background: var(--cor03);
+    position: relative;
 }
 
-img{
-    width: 100px;
+main{
+    background-color: white;
+    width: 90vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.351);
+}
+div#imagem{
+    background: var(--cor03) url(../imagens/pattern.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+div#formulario{
+    text-align: center;
+    padding: 10px;
+}
+
+div h1, p{
+    margin-bottom: 10px;
+}
+
+form p{
+    text-align: left;
+}
+
+form input{
+    width: 100%;
+    background-color: var(--cor04);
+    border: 1px solid var(--cor01);
+}
+
+form  p.botao input{
+    padding: 10px;
+    background-color: var(--cor03);
 }
