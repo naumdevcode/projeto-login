@@ -1,0 +1,23 @@
+@charset "UTF-8";   
+
+:root{
+    --cor01: #8C6FB1;
+    --cor02: #32A3CF;
+    --cor03: #607ED4;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background: var(--cor03);
+}
+
+img{
+    width: 100px;
+}
